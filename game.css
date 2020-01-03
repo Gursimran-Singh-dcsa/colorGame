@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.menu {
+  background-color: white;
+  color: blue;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.colors {
+  background-color: black;
+  color: white;
+}
+.levelButton {
+  color: blue;
+  background-color: inherit;
+  border: none;
+  font-weight: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+.selected {
+  color: white;
+  background-color: blue;
+}
+.levelButton:focus {
+  outline: 0;
+}
+.colorBox {
+  height: 120px;
+  border: 1px solid white;
+  width: 60%;
+  margin: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+#hard, #easy {
+  padding: 15px;
+}
