@@ -21,6 +21,7 @@ body {
 .colors {
   background-color: black;
   color: white;
+  padding: 0;
 }
 .levelButton {
   color: blue;
@@ -38,13 +39,16 @@ body {
   outline: 0;
 }
 .colorBox {
-  height: 120px;
   border: 1px solid white;
-  width: 60%;
-  margin: 10px;
-  text-align: center;
+  height: 150px;
   border-radius: 15px;
+  float: left;
+  margin: 3% ;
 }
 #hard, #easy {
-  padding: 15px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+#colorGuess{
+  margin-bottom: 0px;
 }
