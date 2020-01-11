@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="game.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="game.js"></script>
   </head>
   <body>
@@ -18,22 +19,20 @@
           <button class="levelButton">NEW COLORS</button>
         </div>
         <div class ="col-sm-6 col-xs-12">
-          <button class="levelButton">EASY</button><button class="levelButton selected">HARD</button>
+          <button class="levelButton" id="levelButtonEasy">EASY</button><button class="levelButton selected" id="levelButtonHard">HARD</button>
         </div>
       </div>
     </div>
     <div class="colors container-fluid">
-      <div class="d-flex flex-column justify-content-center">
-        <div class="d-flex flex-row justify-content-center" id="easy">
-          <div class="col-sm-4 colorBox"></div>
-          <div class="col-sm-4 colorBox"></div>
-          <div class="col-sm-4 colorBox"></div>
-        </div>
-        <div class="d-flex flex-row justify-content-center" id="hard">
-          <div class="col-sm-4 colorBox"></div>
-          <div class="col-sm-4 colorBox"></div>
-          <div class="col-sm-4 colorBox"></div>
-        </div>
+      <div id="easy" class="col-sm-12">
+        <div class="col-sm-3 colorBox box1"></div>
+        <div class="col-sm-3 colorBox box2"></div>
+        <div class="col-sm-3 colorBox box3"></div>
+      </div>
+      <div id="hard" class="col-sm-12">
+        <div class="col-sm-3 colorBox box4"></div>
+        <div class="col-sm-3 colorBox box5"></div>
+        <div class="col-sm-3 colorBox box6"></div>
       </div>
     </div>
   </body>
