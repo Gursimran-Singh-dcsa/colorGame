@@ -98,4 +98,9 @@ $(document).ready(function(){
       }
     }
   })
+
+  // new colors Effect
+  $("#newColors").click(function(){
+    setColor(level);
+  })
 })
