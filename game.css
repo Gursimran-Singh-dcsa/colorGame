@@ -44,6 +44,7 @@ body {
   border-radius: 15px;
   float: left;
   margin: 3% ;
+  cursor: pointer;
 }
 #hard, #easy {
   height: 150px;
